@@ -6,8 +6,8 @@ import matplotlib.pyplot as mb
 import numpy as np
 
 # %%
-train=pd.read_csv('../Data/train.csv')
-test=pd.read_csv('../Data/test.csv')
+train=pd.read_csv('../data/train.csv')
+test=pd.read_csv('../data/test.csv')
 # %%
 train.head()
 # %%
@@ -20,7 +20,7 @@ test.dtypes
 test.isnull().sum()
 # %%
 x=train[['Pclass','SibSp','Parch']]
-y=train[['Survived']]
+y=train[['Transported']]
 # %%
 from sklearn.model_selection import train_test_split
 
