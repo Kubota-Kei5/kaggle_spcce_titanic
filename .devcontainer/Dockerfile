@@ -11,3 +11,4 @@ RUN apt-get update
 RUN apt-get install -y sudo git
 RUN echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME
 RUN chmod 0440 /etc/sudoers.d/$USERNAME 
+RUN pip install -r requirements.txt
