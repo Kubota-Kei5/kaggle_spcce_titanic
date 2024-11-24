@@ -1,0 +1,10 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.187.0/containers/go
+{
+  "name": "space_titanic",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "remoteUser": "k395599"
+}
