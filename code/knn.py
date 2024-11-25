@@ -1,5 +1,5 @@
 #k-近傍法（k-nearest neighbor）
-#train score = 
+#train score =
 # %%
 import pandas as pd
 import matplotlib.pyplot as mb
